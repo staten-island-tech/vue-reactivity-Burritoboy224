@@ -1,23 +1,57 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+//import { createRouter, createWebHistory } from 'vue-router'
+//import HomeView from '../views/HomeView.vue'
 
-const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: HomeView
-    },
-    {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
-    }
-  ]
-})
+const pokemonItems = [
+  { name: "Potion", price: 200 },
+  { name: "Super Potion", price: 700 },
+  { name: "Hyper Potion", price: 1200 },
+  { name: "Max Potion", price: 2500 },
+  { name: "Full Heal", price: 600 },
+  { name: "Revive", price: 1500 },
+  { name: "Max Revive", price: 4000 },
+  { name: "Escape Rope", price: 550 },
+  { name: "Repel", price: 350 },
+  { name: "Max Repel", price: 700 },
+  { name: "Lure", price: 100 },
+  { name: "Super Lure", price: 200 },
+  { name: "Max Lure", price: 300 },
+  { name: "Poke Ball", price: 200 },
+  { name: "Great Ball", price: 600 },
+  { name: "Ultra Ball", price: 1200 },
+  { name: "Master Ball", price: 100000 },
+  { name: "Antidote", price: 100 },
+  { name: "Burn Heal", price: 250 },
+  { name: "Paralyze Heal", price: 200 },
+  { name: "Awakening", price: 250 },
+  { name: "Ice Heal", price: 250 },
+  { name: "Ether", price: 600 },
+  { name: "Max Ether", price: 1200 },
+  { name: "Elixir", price: 3000 },
+  { name: "Max Elixir", price: 4800 },
+  { name: "Lava Cookie", price: 200 },
+  { name: "Berry Juice", price: 80 },
+  { name: "Sacred Ash", price: 200 },
+  { name: "Honey", price: 100 },
+  { name: "Energy Root", price: 800 },
+  { name: "Energy Powder", price: 500 },
+  { name: "Heal Powder", price: 450 },
+  { name: "Revival Herb", price: 2800 },
+  { name: "Protein", price: 9800 },
+  { name: "Iron", price: 9800 },
+  { name: "Calcium", price: 9800 },
+  { name: "Zinc", price: 9800 },
+  { name: "Carbos", price: 9800 },
+  { name: "HP Up", price: 9800 },
+  { name: "PP Up", price: 9800 },
+  { name: "PP Max", price: 9800 },
+  { name: "Dire Hit", price: 650 },
+  { name: "Guard Spec.", price: 700 },
+  { name: "X Sp. Def", price: 550 },
+  { name: "X Sp. Atk", price: 350 },
+  { name: "X Attack", price: 500 },
+  { name: "X Defend", price: 550 },
+  { name: "X Speed", price: 350 },
+  { name: "X Accuracy", price: 950 }
+];
 
-export default router
+
