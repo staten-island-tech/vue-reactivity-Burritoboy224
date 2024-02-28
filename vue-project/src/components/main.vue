@@ -1,8 +1,9 @@
 <script setup>
 
 import { ref } from 'vue';
-
+import {pokemonCenterItems} from '../stores/counter.js'
 const exampleVariable = ref(0);
+
 // ref() makes a variable reactive, so if it changes, it will update everywhere
 const props = defineProps({
    Item: Object, 
@@ -18,6 +19,7 @@ function exampleFunc () {
 
 <template>
     <div class="card">
+        <div class="card">
         <h2>Name: {{ Item.name }}</h2>
         <!-- put things inside double {{}} to reference a variable -->
         <p>{{ Item.price }}</p>
@@ -28,12 +30,17 @@ function exampleFunc () {
        <p>{{ exampleVariable }}</p>
         <!--  dont need .value to reference a ref() variable in the html -->
     </div>
+
+
+    </div>
 </template>
 
 <style scoped>
 
 .card {
-    blah blah blah;
+    margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
 
 </style>
