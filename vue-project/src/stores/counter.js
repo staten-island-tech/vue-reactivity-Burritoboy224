@@ -10,7 +10,7 @@ const pokemonCenterItems = [
   {
     name: "Great Ball",
     price: 600,
-    image: "https://static.wikia.nocookie.net/monster-master/images/9/95/Great_ball_by_peetzaahhh2010-d93nt17.png/revision/latest?cb=20170523123559",
+    image: "https://www.serebii.net/itemdex/sprites/sv/greatball.png",
     purchase: ref(0)
   },
   {
@@ -34,37 +34,37 @@ const pokemonCenterItems = [
   {
     name: "Super Potion",
     price: 700,
-    image: "https://static.wikia.nocookie.net/pokemonhonorglory/images/a/a3/Bag_Super_Potion_Sprite.png/revision/latest/thumbnail/width/360/height/360?cb=20210312173503",
+    image: "https://www.serebii.net/itemdex/sprites/sv/superpotion.png",
     purchase: ref(0)
   },
   {
     name: "Hyper Potion",
     price: 1200,
-    image: "https://static.wikia.nocookie.net/project-pokemon/images/5/55/HyperPotion.png/revision/latest/thumbnail/width/360/height/360?cb=20170106012054",
+    image: "https://www.serebii.net/itemdex/sprites/sv/hyperpotion.png",
     purchase: ref(0)
   },
   {
     name: "Max Potion",
     price: 2500,
-    image: "https://archives.bulbagarden.net/media/upload/thumb/8/85/GO_Max_Potion.png/200px-GO_Max_Potion.png",
+    image: "https://www.serebii.net/itemdex/sprites/sv/maxpotion.png",
     purchase: ref(0)
   },
   {
     name: "Full Restore",
     price: 3000,
-    image: "https://static.wikia.nocookie.net/project-pokemon/images/8/83/FullRestore.png/revision/latest/thumbnail/width/360/height/360?cb=20170106012055",
+    image: "https://www.serebii.net/itemdex/sprites/sv/fullrestore.png",
     purchase: ref(0)
   },
   {
     name: "Revive",
     price: 1500,
-    image: "https://static.wikia.nocookie.net/project-pokemon/images/1/13/Revive.png/revision/latest/thumbnail/width/360/height/360?cb=20170106012058",
+    image: "https://www.serebii.net/itemdex/sprites/sv/revive.png",
     purchase: ref(0)
   },
   {
     name: "Max Revive",
     price: 4000, 
-    image: "https://static.wikia.nocookie.net/pokemon/images/4/45/Dream_Max_Revive_Sprite.png/revision/latest/scale-to-width/360?cb=20110515174226",
+    image: "https://www.serebii.net/itemdex/sprites/sv/maxrevive.png",
     purchase: ref(0)
   },
   {
@@ -88,19 +88,19 @@ const pokemonCenterItems = [
   {
     name: "Full Heal",
     price: 600,
-    image: "https://static.wikia.nocookie.net/pokemon/images/0/07/Dream_Full_Heal_Sprite.png/revision/latest/scale-to-width/360?cb=20120210144345",
+    image: "https://www.serebii.net/itemdex/sprites/sv/fullheal.png",
     purchase: ref(0)
   },
   {
     name: "Escape Rope",
     price: 550,
-    image: "https://static.wikia.nocookie.net/pokemon/images/c/c0/Dream_Escape_Rope_Sprite.png/revision/latest/scale-to-width/360?cb=20110823211111",
+    image: "https://www.gamerguides.com/assets/media/15/2037/item_0078.png",
     purchase: ref(0)
   },
   {
     name: "Repel",
     price: 350,
-    image: "https://static.wikia.nocookie.net/pokemon-uranium/images/5/5d/Bag_Repel_Sprite.png/revision/latest/thumbnail/width/360/height/360?cb=20150116025505",
+    image: "https://cdn3.emoji.gg/emojis/3739_go_away.png",
     purchase: ref(0)
   },
   {
