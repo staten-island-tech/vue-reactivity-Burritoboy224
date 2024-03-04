@@ -1,8 +1,8 @@
 <template>
     
   <div class="box">
-       <main v-for="item in pokemonCenterItems"
-  :Item="item"/>
+    <main v-for="item in pokemonCenterItems"
+    :Item="item"></main>
   </div>
 
   <div class="cart">
