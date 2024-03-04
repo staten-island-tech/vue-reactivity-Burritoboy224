@@ -100,19 +100,19 @@ const pokemonCenterItems = [
   {
     name: "Repel",
     price: 350,
-    image: "https://cdn3.emoji.gg/emojis/3739_go_away.png",
+    image: "https://moonlight.kapiolani.hawaii.edu/LocalUser/jcho/mini1/repel.png",
     purchase: ref(0)
   },
   {
     name: "Super Repel",
     price: 500,
-    image: "https://static.wikia.nocookie.net/smashtopia/images/b/b4/Super_Repel.png/revision/latest?cb=20230215023723" ,
+    image: "https://archives.bulbagarden.net/media/upload/d/df/Dream_Super_Repel_Sprite.png" ,
     purchase: ref(0)
   },
   {
     name: "Max Repel",
     price: 700,
-    image: "https://static.wikia.nocookie.net/pokemon/images/2/2d/Dream_Max_Repel_Sprite.png/revision/latest/scale-to-width/360?cb=20110815023409",
+    image: "https://moonlight.kapiolani.hawaii.edu/LocalUser/jcho/mini1/maxrepel.jfif",
     purchase: ref(0)
   },
   {
