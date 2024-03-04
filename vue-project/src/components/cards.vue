@@ -23,5 +23,26 @@ function buy() {
 </script>
 
 <style scoped>
+.card {
+    border: .5rem blue solid;
+    padding: .5rem;
+    width: 30%;
+    margin: 1rem;
 
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    width: 6vh;
+    height: 6vh;
+    font-size: 2vh;
+}
+img{
+  min-width: 30%;
+  max-width: 50%;
+}
 </style>

@@ -1,8 +1,8 @@
 <template>
     
   <div class="box">
-    <main v-for="item in pokemonCenterItems"
-    :Item="item"></main>
+    <cards v-for="item in pokemonCenterItems"
+    :Item="item"/>
   </div>
 
   <div class="cart">
@@ -14,8 +14,17 @@
 
 <script setup>
 
-import main from '@/components/main.vue';
+import cards from '@/components/cards.vue';
 import cart from '@/components/cart.vue';
 import { pokemonCenterItems } from '@/stores/counter';
 
 </script>
+
+<style scoped>
+.box{
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+</style>
