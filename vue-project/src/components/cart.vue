@@ -2,7 +2,7 @@
     <div class="card">
     <h2>You Bought: {{ Item.name }}</h2>
     <h3>Each cost: ${{ Item.price }}</h3>
-    <img :src="Item.img" :alt="Item.name">
+    <img :src="Item.image" :alt="Item.name">
     <h2>Which Costed You This Much: ${{ Number(Item.purchase.value) * Number(Item.price) }}</h2></div>
    
 </template>
@@ -19,7 +19,7 @@ const props = defineProps({
 
 <style scoped>
 .card {
-border: .5rem blue solid;
+border: .4rem red solid;
 padding: .5rem;
 width: 30%;
 margin: 1rem;
