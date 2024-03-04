@@ -1,9 +1,10 @@
 <template>
     <div class="card">
-        <h2>You bought: {{ Item.name }}</h2>
-        <p>Total price: ${{ Item.price * Item.purchase }}</p>
-        <img :src="Item.image" :alt="Item.name">
-    </div>
+    <h2>You Bought: {{ Item.name }}</h2>
+    <h3>Each cost: ${{ Item.price }}</h3>
+    <img :src="Item.img" :alt="Item.name">
+    <h2>Which Costed You This Much: ${{ Number(Item.purchase.value) * Number(Item.price) }}</h2></div>
+   
 </template>
 
 <script setup>
