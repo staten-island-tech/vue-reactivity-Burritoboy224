@@ -1,25 +1,21 @@
 <template>
     
-    <div class="box">
-         <main v-for="item in pokemonCenterItems"
-    :pokemonCenterItems="item"/>
-    <!-- for every "item" in the array, give the parameter "item" to main.vue  -->
-    </div>
-   
+  <div class="box">
+       <main v-for="item in pokemonCenterItems"
+  :Item="item"/>
+  </div>
+
+  <div class="cart">
+      <cart v-for="item in pokemonCenterItems"
+      :Item="item"/>
+  </div>
+ 
 </template>
 
 <script setup>
 
 import main from '@/components/main.vue';
+import cart from '@/components/cart.vue';
 import { pokemonCenterItems } from '@/stores/counter';
 
 </script>
-
-<style scoped>
-.box{
-    display: flex;
-  padding: 1rem;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-</style>
